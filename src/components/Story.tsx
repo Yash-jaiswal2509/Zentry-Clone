@@ -7,7 +7,7 @@ import Button from "./Button";
 const Story = () => {
 
     const frameRef = useRef<HTMLImageElement>(null);
-    const handleMouseLeave = (e: React.MouseEvent<HTMLImageElement>) => {
+    const handleMouseLeave = () => {
         const element = frameRef.current;;
         if (!element) return;
 
